@@ -1,14 +1,8 @@
 package hellocucumber;
 
-import io.cucumber.java.en.*;
-
-import org.junit.jupiter.api.Assertions.*;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-
-import java.util.Locale;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -41,13 +35,5 @@ public class StepDefinitions {
         today = "Friday";
     }
 }
-class IsItFriday {
-    static String isItFriday(String today) {
-        String answer = "Nope";
-        if (today.equals("Friday")) {
-            answer = "TGIF";
-        }
-        return answer;
-    }
-}
+
 

@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hellocucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.154 s <<< FAILURE! - in hellocucumber.RunCucumberTest
-Customer API Testing.Calling login API  Time elapsed: 0.048 s  <<< ERROR!
-io.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.APIStepDefinitions.login_api_is_provided(APIStepDefinitions.java:46)
-	at ✽.Login API is provided(classpath:hellocucumber/api.feature:4)
-
-Customer API Testing.Calling customer list API  Time elapsed: 0.006 s  <<< ERROR!
-io.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.APIStepDefinitions.customer_list_api_is_provided(APIStepDefinitions.java:30)
-	at ✽.Customer list API is provided(classpath:hellocucumber/api.feature:8)
-
-Customer API Testing.Calling customer get API  Time elapsed: 0.004 s  <<< ERROR!
-io.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.APIStepDefinitions.customer_get_api_is_provided(APIStepDefinitions.java:14)
-	at ✽.Customer get API is provided(classpath:hellocucumber/api.feature:12)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.939 s - in hellocucumber.RunCucumberTest
