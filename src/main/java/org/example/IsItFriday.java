@@ -1,9 +1,9 @@
-package hellocucumber;
+package org.example;
 
 //Demo Class under Test
 public class IsItFriday {
 
-        static String isItFriday(String today) {
+        public static String isItFriday(String today) {
             String answer = "Nope";
             if (today.equals("Friday")) {
                 answer = "TGIF";
